@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/self-introduce/static/css/main.073c9b0a.css",
-    "main.js": "/self-introduce/static/js/main.66a5ec9b.js",
+    "main.css": "/self-introduce/static/css/main.d4af54c0.css",
+    "main.js": "/self-introduce/static/js/main.fe47692f.js",
     "static/js/787.b3d441c3.chunk.js": "/self-introduce/static/js/787.b3d441c3.chunk.js",
+    "static/media/inter.ttf": "/self-introduce/static/media/inter.afdb8a07907da21452bf.ttf",
+    "static/media/emoji.gif": "/self-introduce/static/media/emoji.2bb7e1692ec72e3ea265.gif",
+    "static/media/AoboshiOne-Regular.ttf": "/self-introduce/static/media/AoboshiOne-Regular.6692ddf6a93797d99169.ttf",
+    "static/media/Group 3.png": "/self-introduce/static/media/Group 3.6533bc8a56e5d3bc902b.png",
+    "static/media/Group.png": "/self-introduce/static/media/Group.a38c040e10c45e87c2ef.png",
     "static/media/logo.svg": "/self-introduce/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/self-introduce/index.html",
-    "main.073c9b0a.css.map": "/self-introduce/static/css/main.073c9b0a.css.map",
-    "main.66a5ec9b.js.map": "/self-introduce/static/js/main.66a5ec9b.js.map",
+    "main.d4af54c0.css.map": "/self-introduce/static/css/main.d4af54c0.css.map",
+    "main.fe47692f.js.map": "/self-introduce/static/js/main.fe47692f.js.map",
     "787.b3d441c3.chunk.js.map": "/self-introduce/static/js/787.b3d441c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.66a5ec9b.js"
+    "static/css/main.d4af54c0.css",
+    "static/js/main.fe47692f.js"
   ]
 }
