@@ -1,23 +1,86 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import SplitPane from "react-split-pane";
+import { useEffect, useState } from "react";
+import { GreetingsLeft, GreetingsRight } from "./Elements/Greetings";
+import {
+  Introduction,
+  IntroductionLeft,
+  IntroductionRight,
+} from "./Elements/Introduction";
+import { Motto } from "./Elements/Motto";
+import { IntroductionDetail } from "./Elements/IntroductionDetail";
+import { Interest } from "./Elements/Interest";
+import { ContactMe } from "./Elements/ContactMe";
+import { Information, InformationDetail } from "./Elements/Information";
 
 function App() {
+  const [innerWidth, setInnerWidth] = useState(window.innerWidth);
+  const [innerHeight, setInnerHeight] = useState(window.innerHeight);
+
+  useEffect(() => {
+    const resizeListener = () => {
+      setInnerWidth(window.innerWidth);
+      setInnerHeight(window.innerHeight);
+    };
+    window.addEventListener("resize", resizeListener);
+  });
+
+  console.log("innerWidth", innerWidth);
+  console.log("innerWidth", innerHeight);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          jisoolee
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div>
+      {/* <SplitPane split="vertical" minSize={100}>
+        <div>right</div>
+        <div>right</div>
+      </SplitPane> */}
+      <div style={{ display: "flex" }}>
+        <div
+          style={{
+            
+            width: innerWidth / 2,
+            height: innerHeight,
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          <GreetingsRight />
+        </div>
+        <div style={{ width: innerWidth / 2, height: innerHeight, backgroundColor: "#EF775D", }}>
+          <GreetingsLeft />
+        </div>
+      </div>
+      <div style={{height: innerHeight * 0.1, width: '100%'}}>
+
+      </div>
+      <div style={{display: "flex"}}>
+
+      <div style={{ width: innerWidth/2, height: innerHeight }}>
+        <Information/>
+      </div>
+      <div style={{ width: innerWidth/2, height: innerHeight }}>
+        <InformationDetail/>
+      </div>
+      </div>
+      <div style={{ display: "flex" }}>
+        <div style={{ width: innerWidth / 2, height: innerHeight }}>
+          <IntroductionLeft />
+        </div>
+        <div style={{ width: innerWidth / 2, height: innerHeight }}>
+          <IntroductionRight />
+        </div>
+      </div>
+      
+
+      <div style={{ width: innerWidth, height: innerHeight, backgroundColor:'#EF775D' }}>
+        <Motto />
+      </div>
+
+      <div style={{ width: innerWidth, height: innerHeight }}>
+        <Interest />
+      </div>
+
+      <div style={{ width: innerWidth, height: innerHeight }}>
+        <ContactMe />
+      </div>
     </div>
   );
 }

@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face{
+  font-family: 'Aoboshi';
+  src: url("./Font/AoboshiOne-Regular.ttf");
+
+}
+
+@font-face{
+  font-family: 'Inter';
+  src: url("./Font/inter.ttf");
+}
+
+@font-face {
+  font-family: 'GabiaHeuldot';
+  src: url("./Font/GabiaHeuldot.ttf");
+}
+
+@font-face {
+  font-family: 'Cafe';
+  src: url("./Font/Cafe24Classictype.ttf");
+}
