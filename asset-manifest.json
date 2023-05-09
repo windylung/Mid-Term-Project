@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/self-introduce/static/css/main.f3879720.css",
-    "main.js": "/self-introduce/static/js/main.394bded3.js",
+    "main.css": "/self-introduce/static/css/main.5cfeb88c.css",
+    "main.js": "/self-introduce/static/js/main.b156f104.js",
     "static/js/787.b3d441c3.chunk.js": "/self-introduce/static/js/787.b3d441c3.chunk.js",
+    "static/media/Cafe24Classictype.ttf": "/self-introduce/static/media/Cafe24Classictype.2dcba8b3cf3d7d25eb5d.ttf",
     "static/media/GabiaHeuldot.ttf": "/self-introduce/static/media/GabiaHeuldot.907c1f2ab6528ed46080.ttf",
     "static/media/inter.ttf": "/self-introduce/static/media/inter.afdb8a07907da21452bf.ttf",
     "static/media/ET.png": "/self-introduce/static/media/ET.709d1561d076694c8ab4.png",
+    "static/media/Photo.png": "/self-introduce/static/media/Photo.38360172fb7a99d262d6.png",
     "static/media/Skt.jpg": "/self-introduce/static/media/Skt.d14ad2762e1a0d9b65ed.jpg",
     "static/media/Everland.jpeg": "/self-introduce/static/media/Everland.96439a0436b29e737ee7.jpeg",
     "static/media/blog2.png": "/self-introduce/static/media/blog2.11924c6cb90ef8aba247.png",
@@ -18,20 +20,27 @@
     "static/media/floppy2.jpeg": "/self-introduce/static/media/floppy2.4a8ea75de670bda6522a.jpeg",
     "static/media/OriHamgae2.jpeg": "/self-introduce/static/media/OriHamgae2.ddcd42744ec7f266bc4d.jpeg",
     "static/media/AoboshiOne-Regular.ttf": "/self-introduce/static/media/AoboshiOne-Regular.6692ddf6a93797d99169.ttf",
+    "static/media/PhotoBefore.png": "/self-introduce/static/media/PhotoBefore.1738348149da2c10b555.png",
     "static/media/motto.png": "/self-introduce/static/media/motto.c3ece2cc3fee04f9809b.png",
     "static/media/Group.png": "/self-introduce/static/media/Group.a38c040e10c45e87c2ef.png",
     "static/media/number.png": "/self-introduce/static/media/number.d5a23eb9e26648324e94.png",
+    "static/media/Animal.png": "/self-introduce/static/media/Animal.346dbe673cf32b0464a9.png",
+    "static/media/class.png": "/self-introduce/static/media/class.f08e994b5f2c15aba21b.png",
+    "static/media/AnimalBefore.png": "/self-introduce/static/media/AnimalBefore.fb5b126f8026ce428783.png",
+    "static/media/ClassBefore.png": "/self-introduce/static/media/ClassBefore.e1eb589b51507391a2e5.png",
     "static/media/initial.png": "/self-introduce/static/media/initial.753b8ca05969df0b0985.png",
+    "static/media/ENFP.png": "/self-introduce/static/media/ENFP.9cecc2a4f9eae8839903.png",
+    "static/media/ENFPBefore.png": "/self-introduce/static/media/ENFPBefore.ee55c5530e812a281a5a.png",
     "static/media/name.png": "/self-introduce/static/media/name.b77d028194a48d72e37d.png",
     "static/media/Interest.png": "/self-introduce/static/media/Interest.de399dbfab4b1d1f676b.png",
     "static/media/logo.svg": "/self-introduce/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/self-introduce/index.html",
-    "main.f3879720.css.map": "/self-introduce/static/css/main.f3879720.css.map",
-    "main.394bded3.js.map": "/self-introduce/static/js/main.394bded3.js.map",
+    "main.5cfeb88c.css.map": "/self-introduce/static/css/main.5cfeb88c.css.map",
+    "main.b156f104.js.map": "/self-introduce/static/js/main.b156f104.js.map",
     "787.b3d441c3.chunk.js.map": "/self-introduce/static/js/787.b3d441c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3879720.css",
-    "static/js/main.394bded3.js"
+    "static/css/main.5cfeb88c.css",
+    "static/js/main.b156f104.js"
   ]
 }
