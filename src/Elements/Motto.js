@@ -3,11 +3,13 @@ import cambodia from "../Image/cambodia.jpeg";
 import everland from "../Image/Everland.jpeg";
 import skt from "../Image/Skt.jpg";
 import { useState } from "react";
+  
 export function Motto() {
   const text = "나의 모토는";
   const [cambodiaVis, setCambodiaVis] = useState(false);
   const [everlandVis, setEverlandVis] = useState(false);
   const [sktVis, setSktVis] = useState(false);
+  const video = "https://www.youtube.com/watch?v=3tHkKDZ9c4Y"
   return (
     <div
       style={{
@@ -24,7 +26,6 @@ export function Motto() {
           paddingTop: "5%",
         }}
       >
-      
         <div
           style={{
             width: "20%",
@@ -36,7 +37,7 @@ export function Motto() {
             color: "white",
             fontSize: 20,
             whiteSpace: "pre-line",
-            lineHeight: 1.3
+            lineHeight: 1.3,
           }}
         >
           <img
@@ -63,7 +64,7 @@ export function Motto() {
             color: "white",
             fontSize: 20,
             whiteSpace: "pre-line",
-            lineHeight: 1.3
+            lineHeight: 1.3,
           }}
         >
           <img
@@ -89,7 +90,7 @@ export function Motto() {
             color: "white",
             fontSize: 20,
             whiteSpace: "pre-line",
-            lineHeight: 1.3
+            lineHeight: 1.3,
           }}
         >
           <img
@@ -104,7 +105,6 @@ export function Motto() {
           />
           {everlandVis ? "에버랜드 캐스트\n입문 교육 명찰" : null}
         </div>
-      
       </div>
       <div
         style={{
@@ -128,6 +128,10 @@ export function Motto() {
         </div>
         <img src={mottoSticker} style={{ width: 457, marginLeft: 20 }}></img>
       </div>
+      
+      
+      
+      
     </div>
   );
 }

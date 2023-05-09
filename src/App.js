@@ -13,6 +13,7 @@ import { IntroductionDetail } from "./Elements/IntroductionDetail";
 import { Interest } from "./Elements/Interest";
 import { ContactMe } from "./Elements/ContactMe";
 import { Information, InformationDetail } from "./Elements/Information";
+import { Video } from "./Elements/Video";
 
 function App() {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
@@ -81,7 +82,9 @@ function App() {
       <div style={{ width: innerWidth, height: innerHeight }}>
         <Interest />
       </div>
-
+      <div style={{ width: innerWidth, height: innerHeight }}>
+        <Video/>
+      </div>
       <div style={{ width: innerWidth, height: innerHeight }}>
         <ContactMe />
       </div>
