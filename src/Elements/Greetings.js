@@ -43,7 +43,7 @@ export function GreetingsLeft() {
         {text}
       </div>
       <div
-        style={{ fontSize: 42, whiteSpace: "pre-line", fontFamily: "cafe", color: 'white', marginTop: 20}}
+        style={{ fontSize: 50, whiteSpace: "pre-line", fontFamily: "cafe", color: '#944A3A', marginTop: 20, }}
       >
         {text2}
       </div>

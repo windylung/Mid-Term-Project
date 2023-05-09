@@ -29,12 +29,8 @@ export function ContactMe() {
 
         <div style={{ fontSize: 20 }}>jisoolee1126@dankook.ac.kr</div>
         <div style={{ fontSize: 20 }}>@2_tothenth_power</div>
-        <div style={{ fontSize: 20 }}>
-          https://blog.naver.com/windylung
-        </div>
-        <div style={{ fontSize: 20 }}>
-        https://github.com/windylung
-        </div>
+        <div style={{ fontSize: 20 }}>https://blog.naver.com/windylung</div>
+        <div style={{ fontSize: 20 }}>https://github.com/windylung</div>
       </div>
       <div
         style={{
