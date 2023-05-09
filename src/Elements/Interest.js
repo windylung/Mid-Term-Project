@@ -36,6 +36,9 @@ export function Interest() {
             textAlign: "center",
             fontWeight: "bolder",
             fontFamily: "GabiaHeuldot",
+            fontSize: 20,
+            whiteSpace: "pre-line",
+            lineHeight: 1.3
           }}
         >
           <img
@@ -60,6 +63,9 @@ export function Interest() {
             textAlign: "center",
             fontWeight: "bolder",
             fontFamily: "GabiaHeuldot",
+            fontSize: 20,
+            whiteSpace: "pre-line",
+            lineHeight: 1.3
           }}
         >
           <img
@@ -83,7 +89,9 @@ export function Interest() {
             textAlign: "center",
             fontWeight: "bolder",
             fontFamily: "GabiaHeuldot",
-            whiteSpace: "pre-line"
+            fontSize: 20,
+            whiteSpace: "pre-line",
+            lineHeight: 1.3
           }}
         >
           <img
@@ -98,7 +106,7 @@ export function Interest() {
               
             }}
           ></img>
-          {orihamgaeVis ? "가정폭력 가정 대상 어플리케이션\n'오리함께" : null}
+          {orihamgaeVis ? "가정폭력 가정 대상 어플리케이션\n '오리함께' 스토어 업로드" : null}
         </div>
         <div
           style={{
@@ -108,7 +116,9 @@ export function Interest() {
             textAlign: "center",
             fontWeight: "bolder",
             fontFamily: "GabiaHeuldot",
-            whiteSpace: "pre-line"
+            fontSize: 20,
+            whiteSpace: "pre-line",
+            lineHeight: 1.3
           }}
         >
           <img

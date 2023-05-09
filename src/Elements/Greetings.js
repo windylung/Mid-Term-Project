@@ -38,12 +38,12 @@ export function GreetingsLeft() {
   return (
     <div style={{ padding: '10%' }}>
       <div
-        style={{ fontSize: 40, whiteSpace: "pre-line", fontFamily: "cafe", color: 'white'}}
+        style={{ fontSize: 40, whiteSpace: "pre-line", fontFamily: "cafe", color: 'white',lineHeight: 1.3}}
       >
         {text}
       </div>
       <div
-        style={{ fontSize: 50, whiteSpace: "pre-line", fontFamily: "cafe", color: '#944A3A', marginTop: 90, }}
+        style={{ fontSize: 50, whiteSpace: "pre-line", fontFamily: "cafe", color: '#944A3A', marginTop: 90, lineHeight: 1.3}}
       >
         {text2}
       </div>

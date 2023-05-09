@@ -30,10 +30,7 @@ function App() {
   console.log("innerWidth", innerHeight);
   return (
     <div>
-      {/* <SplitPane split="vertical" minSize={100}>
-        <div>right</div>
-        <div>right</div>
-      </SplitPane> */}
+      
       <div style={{ display: "flex" }}>
         <div
           style={{
@@ -53,7 +50,7 @@ function App() {
           <GreetingsLeft />
         </div>
       </div>
-      <div style={{ height: innerHeight * 0.1, width: "100%" }}></div>
+      <div style={{ height: innerHeight * 0.2, width: "100%" }}></div>
       <div style={{ display: "flex" }}>
         <div style={{ width: innerWidth / 2, height: innerHeight }}>
           <Information />

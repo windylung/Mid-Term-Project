@@ -59,14 +59,22 @@ export function Information() {
 }
 
 export function InformationDetail() {
-    const [numberVis, setNumberVis] = useState(false)
-    const [classnum, setClassnum] = useState(false)
-    const [animal, setAnimal] = useState(false)
-    const [mbti, setMbti] = useState(false)
-    const [photo, setPhoto] = useState(false)
+  const [numberVis, setNumberVis] = useState(false);
+  const [classnum, setClassnum] = useState(false);
+  const [animal, setAnimal] = useState(false);
+  const [mbti, setMbti] = useState(false);
+  const [photo, setPhoto] = useState(false);
   return (
-    <div style={{ height: "100%", width: "100%", paddingLeft: "10%", paddingTop: '10%',}}>
-      <div style={{ display: "flex",  marginBottom: 10,}}>
+    <div
+      style={{
+        height: "100%",
+        width: "100%",
+        paddingLeft: "10%",
+        paddingTop: "10%",
+      }}
+    >
+      <div style={{fontFamily: "GabiaHeuldot", marginBottom: 30,}}>* 스티커에 마우스를 올려 내용을 확인해보세요.</div>
+      <div style={{ display: "flex", marginBottom: 10 }}>
         <div
           style={{
             fontSize: 50,
@@ -75,17 +83,23 @@ export function InformationDetail() {
             WebkitTextStrokeColor: "black",
             fontWeight: "bold",
             fontFamily: "Inter",
-            
-            marginRight: 30
+
+            marginRight: 30,
           }}
         >
           학번
         </div>
         <div>
-          <img src={numberVis?numberSticker:numberStickerBefore} style={{ width: 355, heigt: 94 }} onMouseOver={() => {setNumberVis(true)}}/>
+          <img
+            src={numberVis ? numberSticker : numberStickerBefore}
+            style={{ width: 355, heigt: 94 }}
+            onMouseOver={() => {
+              setNumberVis(true);
+            }}
+          />
         </div>
       </div>
-      <div style={{ display: "flex", marginBottom: 10,}}>
+      <div style={{ display: "flex", marginBottom: 10 }}>
         <div
           style={{
             fontSize: 50,
@@ -94,17 +108,23 @@ export function InformationDetail() {
             WebkitTextStrokeColor: "black",
             fontWeight: "bold",
             fontFamily: "Inter",
-            
-            marginRight: 30
+
+            marginRight: 30,
           }}
         >
           오픈소스
         </div>
         <div>
-          <img src={classnum?ClassSticker:ClassStickerBefore} style={{ width: 355.62, heigt: 94 }} onMouseOver={() => {setClassnum(true)}}/>
+          <img
+            src={classnum ? ClassSticker : ClassStickerBefore}
+            style={{ width: 355.62, heigt: 94 }}
+            onMouseOver={() => {
+              setClassnum(true);
+            }}
+          />
         </div>
       </div>
-      <div style={{ display: "flex",  marginBottom: 10,}}>
+      <div style={{ display: "flex", marginBottom: 10 }}>
         <div
           style={{
             fontSize: 50,
@@ -113,17 +133,23 @@ export function InformationDetail() {
             WebkitTextStrokeColor: "black",
             fontWeight: "bold",
             fontFamily: "Inter",
-            
-            marginRight: 30
+
+            marginRight: 30,
           }}
         >
           MBTI
         </div>
         <div>
-          <img src={mbti?MBTISticker:MBTIStickerBefore} style={{ width: 296, heigt: 65 }} onMouseOver={() => {setMbti(true)}}/>
+          <img
+            src={mbti ? MBTISticker : MBTIStickerBefore}
+            style={{ width: 296, heigt: 65 }}
+            onMouseOver={() => {
+              setMbti(true);
+            }}
+          />
         </div>
       </div>
-      <div style={{ display: "flex", marginBottom: 10,}}>
+      <div style={{ display: "flex", marginBottom: 10 }}>
         <div
           style={{
             fontSize: 50,
@@ -132,16 +158,22 @@ export function InformationDetail() {
             WebkitTextStrokeColor: "black",
             fontWeight: "bold",
             fontFamily: "Inter",
-            marginRight: 30
+            marginRight: 30,
           }}
         >
           애완동물
         </div>
         <div>
-          <img src={animal?AnimalSticker:AnimalStickerBefore} style={{ width: 296, heigt: 65 }} onMouseOver={() => {setAnimal(true)}}/>
+          <img
+            src={animal ? AnimalSticker : AnimalStickerBefore}
+            style={{ width: 296, heigt: 65 }}
+            onMouseOver={() => {
+              setAnimal(true);
+            }}
+          />
         </div>
       </div>
-      <div style={{ display: "flex", marginBottom: 10,}}>
+      <div style={{ display: "flex", marginBottom: 10 }}>
         <div
           style={{
             fontSize: 50,
@@ -150,13 +182,19 @@ export function InformationDetail() {
             WebkitTextStrokeColor: "black",
             fontWeight: "bold",
             fontFamily: "Inter",
-            marginRight: 30
+            marginRight: 30,
           }}
         >
           사진
         </div>
         <div>
-          <img src={photo?PhotoSticker:PhotoStickerBefore} style={{ width: 288, heigt: 64 }} onMouseOver={() => {setPhoto(true)}}/>
+          <img
+            src={photo ? PhotoSticker : PhotoStickerBefore}
+            style={{ width: 288, heigt: 64 }}
+            onMouseOver={() => {
+              setPhoto(true);
+            }}
+          />
         </div>
       </div>
     </div>
