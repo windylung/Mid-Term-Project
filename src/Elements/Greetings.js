@@ -23,7 +23,7 @@ export function GreetingsRight() {
           startOffset={0}
           reversed={false}
           text="OpenSource Lee Jisoo"
-          textProps={{ style: { fontSize: 80, fontFamily: 'Cafe'} }}
+          textProps={{ style: { fontSize: 70, fontFamily: 'Cafe'} }}
         />
       </ArcText>
     </div>
@@ -43,7 +43,7 @@ export function GreetingsLeft() {
         {text}
       </div>
       <div
-        style={{ fontSize: 50, whiteSpace: "pre-line", fontFamily: "cafe", color: '#944A3A', marginTop: 20, }}
+        style={{ fontSize: 50, whiteSpace: "pre-line", fontFamily: "cafe", color: '#944A3A', marginTop: 90, }}
       >
         {text2}
       </div>
