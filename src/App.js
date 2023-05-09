@@ -82,9 +82,10 @@ function App() {
       <div style={{ width: innerWidth, height: innerHeight }}>
         <Interest />
       </div>
-      <div style={{ width: innerWidth, height: innerHeight }}>
+      <div style={{ width: innerWidth, height: innerHeight * 0.4}}>
         <Video/>
       </div>
+      <div style={{ height: innerHeight * 0.2 }}></div>
       <div style={{ width: innerWidth, height: innerHeight }}>
         <ContactMe />
       </div>
