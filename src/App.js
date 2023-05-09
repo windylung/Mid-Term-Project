@@ -37,28 +37,30 @@ function App() {
       <div style={{ display: "flex" }}>
         <div
           style={{
-            
             width: innerWidth / 2,
             height: innerHeight,
           }}
         >
           <GreetingsRight />
         </div>
-        <div style={{ width: innerWidth / 2, height: innerHeight, backgroundColor: "#EF775D", }}>
+        <div
+          style={{
+            width: innerWidth / 2,
+            height: innerHeight,
+            backgroundColor: "#EF775D",
+          }}
+        >
           <GreetingsLeft />
         </div>
       </div>
-      <div style={{height: innerHeight * 0.1, width: '100%'}}>
-
-      </div>
-      <div style={{display: "flex"}}>
-
-      <div style={{ width: innerWidth/2, height: innerHeight }}>
-        <Information/>
-      </div>
-      <div style={{ width: innerWidth/2, height: innerHeight }}>
-        <InformationDetail/>
-      </div>
+      <div style={{ height: innerHeight * 0.1, width: "100%" }}></div>
+      <div style={{ display: "flex" }}>
+        <div style={{ width: innerWidth / 2, height: innerHeight }}>
+          <Information />
+        </div>
+        <div style={{ width: innerWidth / 2, height: innerHeight }}>
+          <InformationDetail />
+        </div>
       </div>
       <div style={{ display: "flex" }}>
         <div style={{ width: innerWidth / 2, height: innerHeight }}>
@@ -68,12 +70,17 @@ function App() {
           <IntroductionRight />
         </div>
       </div>
-      
 
-      <div style={{ width: innerWidth, height: innerHeight, backgroundColor:'#EF775D' }}>
+      <div
+        style={{
+          width: innerWidth,
+          height: innerHeight,
+          backgroundColor: "#EF775D",
+        }}
+      >
         <Motto />
       </div>
-
+      <div style={{ height: innerHeight * 0.2 }}></div>
       <div style={{ width: innerWidth, height: innerHeight }}>
         <Interest />
       </div>

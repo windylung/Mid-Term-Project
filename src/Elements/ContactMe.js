@@ -1,7 +1,8 @@
 import ET from "../Image/ET.png";
+import blogIcon from "../Image/blogIcon.png";
+import githubIcon from "../Image/github-mark.png";
 export function ContactMe() {
   const text = "Contact Me";
-  const url = "https://blog.naver.com/windylung";
 
   return (
     <div
@@ -27,10 +28,22 @@ export function ContactMe() {
           {text}
         </div>
 
-        <div style={{ fontSize: 20 }}>jisoolee1126@dankook.ac.kr</div>
-        <div style={{ fontSize: 20 }}>@2_tothenth_power</div>
-        <div style={{ fontSize: 20 }}>https://blog.naver.com/windylung</div>
-        <div style={{ fontSize: 20 }}>https://github.com/windylung</div>
+        <div style={{ fontSize: 20, marginBottom: 10, }}>jisoolee1126@dankook.ac.kr</div>
+        <div style={{ fontSize: 20, marginBottom: 20}}>@2_tothenth_power</div>
+
+        <div style={{display: "flex"}}>
+          <img
+            src={blogIcon}
+            style={{ width: 40, marginRight: 20}}
+            onClick={() => window.open("https://blog.naver.com/windylung")}
+          ></img>
+
+          <img
+            src={githubIcon}
+            style={{ width: 40, marginRight: 20}}
+            onClick={() => window.open("https://blog.naver.com/windylung")}
+          ></img>
+        </div>
       </div>
       <div
         style={{
