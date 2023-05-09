@@ -34,8 +34,7 @@ export function GreetingsLeft() {
   "Hello. this is JiSoo's self-introduction page.\nI talk about my introduction, motto, and areas of interest in order.\n I hope you can get to know me through this page.\n"
 
   const text2 = 
-  "Use mouseover actively to see hidden characters.\n Definitely!"
-    // "LeeJisoo Pommicheotda\n Let me introduce myself its hard to making website \n LeeJisoo Pommicheotda\nLet me introduce myself\nits hard to making website";
+  "Use mouseover actively to see hidden characters."
   return (
     <div style={{ padding: '10%' }}>
       <div
